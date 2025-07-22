@@ -1,14 +1,229 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Legal Solution</title>
+    <!-- font garamond -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://kit.fontawesome.com/a440152b5f.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header class="mx-50">
+        <nav class="flex items-center  justify-between mb-14 mt-10">
+            <img src="./images/logo2.png" alt="">
+            <!-- <h1 class="text-[#414040] ml-[-160px] text-4xl eb-garamond font-extrabold" >Justice</h1> -->
+            <ul class="flex poppins text-[#707070] ">
+                <li class="pr-7"><a href="">Home</a></li>
+                <li class="pr-7"><a href="">Services</a></li>
+                <li class="pr-7"><a href="">Causes</a></li>
+                <li class="pr-7"><a href="">Blog</a></li>
+                <li class="pr-7"><a href="">Contact Us</a></li>
+            </ul>
+            <button class="bg-[#B68C5A] px-7 py-4 rounded-xl text-white text-xl">Free consultation</button>
+        </nav>
+        <div class=" banner bg-[url('./images/banner.png')] bg-no-repeat bg-center px-50 py-32 text-center">
+            <h1 class="eb-garamond text-5xl font-extrabold text-white mb-6">We Provide Effective Legal Solutions
+            </h1>
+            <p class="text-white text-[12px] poppins mb-6">There are many variations of passages of Lorem Ipsum
+                available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <div class="flex justify-between">
+                <input type="text" name="" id="" class="bg-white pl-5 pr-36 py-4 rounded-xl"
+                    placeholder="search your services">
+                <button class="px-8 py-3 rounded-xl text-white bg-[#B68C5A]">Search</button>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="card-section mx-50 mt-30 eb-garamond">
+            <h1 class="eb-garamond text-4xl font-extrabold text-center mb-6">The Legal Practice Area</h1>
+            <p class="text-16 poppins text-[#707070] text-center mb-15">There are many variations of passages of Lorem
+                Ipsum available, but the majority have suffered alteration
+                in some form, by injected humour.</p>
+            <div class="cards grid grid-cols-3">
+                <div class="card text-center items-center px-10 py-10 border-b-2 border-r-2 border-[#E7E7E7]">
+                    <div class=" flex justify-center">
+                        <img src="./images/business.png" class="mb-8" alt="">
+                    </div>
+                    <h2 class="text-3xl font-extrabold mb-6 text-[#414040]">Business Law</h2>
+                    <p class="text-[#707070] text-base mb-8">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                <div
+                    class="card bg-linear-to-b from-[#F3F3F3] to-[#ffff] px-10 py-10 border-b-2 border-r-2 border-[#E7E7E7]">
+                    <div class=" flex justify-center">
+                        <img src="./images/criminal.png" class="mb-8" alt="">
+                    </div>
+                    <h2 class="text-3xl font-extrabold mb-6 text-[#414040]">Criminal Law</h2>
+                    <p class="text-[#707070] text-base mb-8">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                <div class="card px-10 py-10 border-b-2 border-[#E7E7E7]">
+                    <div class=" flex justify-center">
+                        <img src="./images/child.png" class="mb-8" alt="">
+                    </div>
+                    <h2 class="text-3xl font-extrabold mb-6 text-[#414040]">Child Support</h2>
+                    <p class="text-[#707070] text-base mb-8">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                <div class="card px-10 py-10 border-r-2 border-[#E7E7E7]">
+                    <div class=" flex justify-center">
+                        <img src="./images/education.png" class="mb-8" alt="">
+                    </div>
+                    <h2 class="text-3xl font-extrabold mb-6 text-[#414040]">Education Law</h2>
+                    <p class="text-[#707070] text-base mb-8">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                <div class="card px-10 py-10 border-r-2 border-[#E7E7E7]">
+                    <div class=" flex justify-center">
+                        <img src="./images/divorce.png" class="mb-8" alt="">
+                    </div>
+                    <h2 class="text-3xl font-extrabold mb-6 text-[#414040]">Divorce Law</h2>
+                    <p class="text-[#707070] text-base mb-8">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+                <div class="card px-10 py-10 border-[#E7E7E7]">
+                    <div class=" flex justify-center">
+                        <img src="./images/tax.png" class="mb-8" alt="">
+                    </div>
+                    <h2 class="text-3xl font-extrabold mb-6 text-[#414040]">Tax Law</h2>
+                    <p class="text-[#707070] text-base mb-8">There are many variations of passages of Lorem Ipsum
+                        available, but the majority have suffered
+                        alteration in some form, by injected humour.</p>
+                    <img src="./images/Frame.png" alt="">
+                </div>
+
+            </div>
+        </section>
+        <section class="qna-section eb-garamond mx-50 mt-30">
+            <h1 class="font-extrabold text-center mb-6 text-[#414040] text-4xl">Frequently Asked Any Questions</h1>
+            <p class="mb-16 text-base text-center poppins text-[#707070]">There are many variations of passages of Lorem
+                Ipsum available, but the majority have suffered alteration in some form, by injected humour.</p>
+            <div class="qna-contents grid grid-cols-2 gap-7">
+                <div class="qna-cards flex flex-col gap-4 ">
+                    <div class="qna-card rounded-xl flex gap-4 items-center p-7 bg-[#F3F3F3]">
+                        <div class="qna-q">
+                            <h2 class="font-extrabold mb-4 text-xl   text-[#414040] ">1.Are application fee waivers
+                                available?</h2>
+                            <p class="poppins text-[#707070] text-sm ">There are many variations of passages of Lorem
+                                Ipsum available, but the majority have suffered alteration in some form, by injected
+                                humour, .
+                            </p>
+                        </div>
+                        <i class="fa-solid fa-minus"></i>
+                    </div>
+                    <div class="qna-card rounded-xl  pr-2 py-4 pl-6 bg-[#F3F3F3]">
+                        <div class="qna-q flex items-center gap-4">
+                            <h2 class="font-extrabold mb-4 text-xl   text-[#414040] ">1.Are application fee waivers
+                                available?
+                            </h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="qna-card rounded-xl  pr-2 py-4 pl-6 bg-[#F3F3F3]">
+                        <div class="qna-q flex items-center gap-4">
+                            <h2 class="font-extrabold mb-4 text-xl   text-[#414040] ">1.Are application fee waivers
+                                available?
+                            </h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="qna-card rounded-xl  pr-2 py-4 pl-6 bg-[#F3F3F3]">
+                        <div class="qna-q flex items-center gap-4">
+                            <h2 class="font-extrabold mb-4 text-xl   text-[#414040] ">1.Are application fee waivers
+                                available?
+                            </h2>
+                            <i class="fa-solid fa-plus"></i>
+                        </div>
+                    </div>
+                </div>
+                <img src="./images/faq.png" alt="">
+        </section>
+        <section class="contact eb-garamond mx-50 mt-30">
+            <div class="contact-contents grid grid-cols-2 gap-8">
+                <div class="contact-cards bg-[#F3F3F3] grid grid-cols-2">
+                    <div class="contact-card text-center p-6 border-[#CFCFCF] border-b-1 border-r-1">
+                        <div class="flex justify-center">
+                            <img src="./images/location.png" class="mb-4" alt="">
+                        </div>
+                        <h1 class="text-xl mb-4 font-extrabold text-[#414040]">Address</h1>
+                        <p class="text-[#707070] mb-0 poppins text-xs">A108 Adam Street,<br>
+                            New York, NY 535022</p>
+                    </div>
+                    <div class="contact-card text-center p-4 border-[#CFCFCF] border-b-1">
+                        <div class="flex justify-center">
+                            <img src="./images/call.png" class="mb-4">
+                        </div>
+                        <h1 class="text-xl  font-extrabold mb-4 text-[#414040]">Call Us</h1>
+                        <p class="text-[#707070] mb-0 poppins text-xs">
+                            +88 01750 00 00 00 <br>
+                            +88 01750 00 00 00
+                        </p>
+                    </div>
+                    <div class="contact-card text-center p-4 border-[#CFCFCF] border-r-1">
+                        <div class="flex justify-center">
+                            <img src="./images/email.png" class="mb-4" alt="">
+                        </div>
+                        <h1 class="text-xl mb-4 font-extrabold text-[#414040]">Email Us</h1>
+                        <p class="text-[#707070] mb-0 poppins text-xs">
+                            info@gmail.com <br>
+                            info@gmail.com
+                        </p>
+                    </div>
+                    <div class="contact-card text-center p-4">
+                        <div class="flex justify-center">
+                            <img src="./images/time.png" class="mb-4" alt="">
+                        </div>
+                        <h1 class="text-xl font-extrabold mb-4 text-[#414040]">Working Hours</h1>
+                        <p class="text-[#707070] mb-0 poppins text-xs">
+                            Mon-Fri: 9AM to 5PM <br>
+                            Sunday: 9AM to 1 PM
+                        </p>
+                    </div>
+                </div>
+                <form class="contact-form poppins flex flex-col">
+                    <input type="text" class="" placeholder="Your name">
+                    <input type="email" class="" placeholder="Your email">
+                    <input type="text" class="" placeholder="Subject">
+                    <textarea name="" id="" placeholder="Your message"></textarea>
+                    <button class="contact-form-button">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-black mt-30">
+        <footer class="poppins">
+            <div class="footer-content">
+                <img src="./images/logo.png" class="inline-block" alt="">
+                <p class="footer-subtitle manrope">Copyright © 2020 influencer products</p>
+                <p class="footer-subtitle manrope">All rights reserved</p>
+                <div class="footer-icons">
+                    <i class="fa-brands fa-instagram"></i>
+                    <i class="fa-brands fa-dribbble"></i>
+                    <i class="fa-brands fa-square-twitter"></i>
+                    <i class="fa-brands fa-square-youtube"></i>
+                </div>
+            </div>
+        </footer>
+    </footer>
 </body>
+
 </html>
